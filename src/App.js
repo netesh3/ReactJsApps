@@ -11,24 +11,20 @@ class App extends Component {
                     <header className="App-header">
                         <img src={logo} className="App-logo" alt="logo"/>
                         <img src={netesh} alt={"Netesh"} className="App-logo1" align="right"/>
-
                         <i className="App-title">Netesh Kumar (Chiku)</i>
                     </header>
+
                     <body className="App-intro">
                         <h3>About me </h3>
-                        <content> I love problem-solving, exploring algorithm and coding, and together they have instilled in me a passion towards Computer Science. I measure my life by the impact I make. I am a techie and I love making cool products.
-
-                            Having 3 years and 10 months of experience in software development. Looking out for a better opportunity or freelancing project based on Java/J2ee, Python, Angular, JavaScript.
-
-                            <b>Specialities:-</b> Java 9, Data Structure, Algorithm, Multi-threading, Design Pattern, Business Intelligence, Python Scripting, Spring Boot, RestFull, MySql, Hibernate, JPA, JavaScript, Angular and AWS Cloud.
-
-                            Methodologies: Agile, Continuous Integration, Test Driven Development, Software Development, System Architecture, Object Oriented Design, Operating Systems Linux/ UNIX.
-
+                        <content>
+                            I love problem-solving, exploring algorithm and coding, and together they have instilled in me a passion towards Computer Science. I measure my life by the impact I make. I am a techie and I love making cool products.
+                            Having 3 years and 10 months of experience in software development. Looking out for a better opportunity or freelancing project based on Java/J2ee, Python, Angular.
+                            <br></br>
+                            <b>Specialities:-</b> Java 10, Data Structure, Algorithm, Multi-threading, Design Pattern, Business Intelligence, Python Scripting, Spring Boot, RestFull, MySql, Hibernate, JPA, JavaScript, Angular and AWS Cloud.
+                            <b>Methodologies:-</b> Agile, Continuous Integration, Test Driven Development, Software Development, System Architecture, Object Oriented Design, Operating Systems Linux/ UNIX.
                             Worked on Modular programming using Java 9 and Reactive Stream.
-
                         </content>
                         <br></br>
-
 
                         <center><h1> Technology Stack</h1></center>
                         <div className="tech-slideshow">
@@ -38,21 +34,15 @@ class App extends Component {
                     </body>
 
                     <footer className="footer-distributed">
-
                         <div className="footer-left">
-
                             <h3>Works<span>@</span></h3>
-
                             <p className="footer-links">
                                 <a href="https://www.informatica.com/in/#fbid=h8uYBwBIXKS">Informatica</a>
                                 <br></br>
                                 <p>Senior Software Engineer</p>
                             </p>
-
                         </div>
-
                         <div className="footer-center">
-
                             <div>
                                 <i className="fa fa-map-marker"></i>
                                 <p><span>India</span> Bangalore </p>
