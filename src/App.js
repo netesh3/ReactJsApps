@@ -7,13 +7,11 @@ class App extends Component {
         return (
             <React.Fragment>
                 <div className="App">
-
                     <header className="App-header">
                         <img src={logo} className="App-logo" alt="logo"/>
-                        <i className="App-title">Welcome to my blog</i>
+                        <img src={logo} className="App-logo1" alt="logo" align="right"/>
+                        <i className="App-title">Netesh Kumar (Chiku)</i>
                     </header>
-
-
                     <body className="App-intro">
                         <h1>About me</h1>
                         <content> I love problem-solving, exploring algorithm and coding, and together they have instilled in me a passion towards Computer Science. I measure my life by the impact I make. I am a techie and I love making cool products.
@@ -28,17 +26,15 @@ class App extends Component {
 
                         </content>
                         <br></br>
-                        <bold>Contact details:</bold>
-                        <content>
-                            netesh91@gmail.com
-                            +91-9538627458
-                        </content>
+                        {/*<bold>Contact details:</bold>*/}
+                        {/*<content>*/}
+                            {/*netesh91@gmail.com*/}
+                            {/*+91-9538627458*/}
+                        {/*</content>*/}
 
-                        <h1>Learning React Js</h1>
-                        <content> A JavaScript library for building user interfaces By Facebook</content>
+                        {/*<h1>Learning React Js</h1>*/}
+                        {/*<content> A JavaScript library for building user interfaces By Facebook</content>*/}
                     </body>
-
-
                     <footer className="footer-distributed">
 
                         <div className="footer-left">
@@ -46,13 +42,10 @@ class App extends Component {
                             <h3>Works<span>@</span></h3>
 
                             <p className="footer-links">
-                                <a href="#">Informatica</a>
+                                <a href="https://www.informatica.com/in/#fbid=h8uYBwBIXKS">Informatica</a>
                                 <br></br>
-                                <a href="#">Senior Software Engineer</a>
-
+                                <p>Senior Software Engineer</p>
                             </p>
-
-                            {/*<p className="footer-company-name"> chiku@3 </p>*/}
 
                         </div>
 
@@ -82,22 +75,16 @@ class App extends Component {
                             </p>
 
                             <div className="footer-icons">
-
-                                <a href="#" className="face face-facebook"></a>
-                                <a href="#" className="face face-linkedin"></a>
-                                <a href="#" className="face face-skype"></a>
-                                <a href="#" className="face face-twitter"></a>
-
+                                <a href="https://www.facebook.com/neteshchiku"className="face face-facebook"target="_blank"></a>
+                                <a href="https://www.linkedin.com/in/netesh3/" className="face face-linkedin"target="_blank"></a>
+                                <a href="https://twitter.com/ImNetesh3" className="face face-twitter"target="_blank"></a>
                             </div>
 
                         </div>
                     </footer>
-
                 </div>
-
             </React.Fragment>
         );
     }
 }
-
 export default App;
