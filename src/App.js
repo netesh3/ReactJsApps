@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
+import netesh from './netesh.jpg';
 import './App.css';
 
 class App extends Component {
@@ -9,16 +10,17 @@ class App extends Component {
                 <div className="App">
                     <header className="App-header">
                         <img src={logo} className="App-logo" alt="logo"/>
-                        <img src={logo} className="App-logo1" alt="logo" align="right"/>
+                        <img src={netesh} alt={"Netesh"} className="App-logo1" align="right"/>
+
                         <i className="App-title">Netesh Kumar (Chiku)</i>
                     </header>
                     <body className="App-intro">
-                        <h1>About me</h1>
+                        <h3>About me </h3>
                         <content> I love problem-solving, exploring algorithm and coding, and together they have instilled in me a passion towards Computer Science. I measure my life by the impact I make. I am a techie and I love making cool products.
 
                             Having 3 years and 10 months of experience in software development. Looking out for a better opportunity or freelancing project based on Java/J2ee, Python, Angular, JavaScript.
 
-                            Specialities: Java 9, Data Structure, Algorithm, Multi-threading, Design Pattern, Business Intelligence, Python Scripting, Spring Boot, RestFull, MySql, Hibernate, JPA, JavaScript, Angular and AWS Cloud.
+                            <b>Specialities:-</b> Java 9, Data Structure, Algorithm, Multi-threading, Design Pattern, Business Intelligence, Python Scripting, Spring Boot, RestFull, MySql, Hibernate, JPA, JavaScript, Angular and AWS Cloud.
 
                             Methodologies: Agile, Continuous Integration, Test Driven Development, Software Development, System Architecture, Object Oriented Design, Operating Systems Linux/ UNIX.
 
@@ -26,21 +28,15 @@ class App extends Component {
 
                         </content>
                         <br></br>
-                        {/*<bold>Contact details:</bold>*/}
-                        {/*<content>*/}
-                            {/*netesh91@gmail.com*/}
-                            {/*+91-9538627458*/}
-                        {/*</content>*/}
 
-                        {/*<h1>Learning React Js</h1>*/}
-                        {/*<content> A JavaScript library for building user interfaces By Facebook</content>*/}
+
                         <center><h1> Technology Stack</h1></center>
                         <div className="tech-slideshow">
                             <div className="mover-1"></div>
-                            {/*<div className="mover-2"></div>*/}
+                            <div className="mover-2"></div>
                         </div>
-
                     </body>
+
                     <footer className="footer-distributed">
 
                         <div className="footer-left">
