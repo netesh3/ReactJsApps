@@ -34,6 +34,12 @@ class App extends Component {
 
                         {/*<h1>Learning React Js</h1>*/}
                         {/*<content> A JavaScript library for building user interfaces By Facebook</content>*/}
+                        <center><h1> Technology Stack</h1></center>
+                        <div className="tech-slideshow">
+                            <div className="mover-1"></div>
+                            {/*<div className="mover-2"></div>*/}
+                        </div>
+
                     </body>
                     <footer className="footer-distributed">
 
