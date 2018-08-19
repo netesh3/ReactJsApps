@@ -11,7 +11,7 @@ class App extends Component {
                     <header className="App-header">
                         <img src={logo} className="App-logo" alt="logo"/>
                         <img src={netesh} alt={"Netesh"} className="App-logo1" align="right"/>
-                        <i className="App-title">Netesh Kumar (Chiku)</i>
+                        <i className="App-title">Netesh Kumar Chiku</i>
                     </header>
 
                     <body className="App-intro">
@@ -26,7 +26,7 @@ class App extends Component {
                         </content>
                         <br></br>
 
-                        <center><h1> Technology Stack</h1></center>
+                        <center><h1> Technology/Event Stack</h1></center>
                         <div className="tech-slideshow">
                             <div className="mover-1"></div>
                             <div className="mover-2"></div>
