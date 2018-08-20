@@ -9,21 +9,15 @@ class App extends Component {
             <React.Fragment>
                 <div className="App">
                     <header className="App-header">
-                        <ul>
-                            <img src={netesh} className="App-logo" alt="logo" onclick="netesh.jpg"/>
-                            <i className="App-title"> Netesh Kumar | Chiku</i>
-                            <li><a href="/about">About me</a></li>
-                            <li><a href="/technology">Technology Stack</a></li>
-                            <li><a className="active" href="/">Home</a></li>
-                        </ul>
+                        <img src={netesh} className="App-logo" alt="logo"/>
+                        <img src={netesh} alt={"Netesh"} className="App-logo1" align="right"/>
+
+                        <i className="App-title"> Netesh Kumar || Chiku</i>
                     </header>
 
-
-
-
                     <body className="App-intro">
-                        <br></br>
-                        <br></br>
+
+                        <h3>About me </h3>
                         <content>
                             I love problem-solving, exploring algorithm and coding, and together they have instilled in me a passion towards Computer Science. I measure my life by the impact I make. I am a techie and I love making cool products.
                             Having 3 years and 10 months of experience in software development. Looking out for a better opportunity or freelancing project based on Java/J2ee, Python, Angular.
@@ -33,14 +27,13 @@ class App extends Component {
                             Worked on Modular programming using Java 9 and Reactive Stream.
                         </content>
                         <br></br>
+
                         <center><h1> Technology/Event Stack</h1></center>
-                            <div className="tech-slideshow">
-                                 <div className="mover-1"></div>
-                                 <div className="mover-2"></div>
-                            </div>
+                        <div className="tech-slideshow">
+                            <div className="mover-1"></div>
+                            <div className="mover-2"></div>
+                        </div>
                     </body>
-
-
 
                     <footer className="footer-distributed">
                         <div className="footer-left">
@@ -60,16 +53,15 @@ class App extends Component {
                             <div>
                                 <i className="fa fa-phone"></i>
                                 <p>+91-9538627458</p>
+                            </div>
+
+                            <div>
                                 <i className="fa fa-envelope"></i>
                                 <p><a href="mailto:support@company.com">netesh91@gmail.com</a></p>
                             </div>
 
-                            {/*<div>*/}
-                                {/*<i className="fa fa-envelope"></i>*/}
-                                {/*<p><a href="mailto:support@company.com">netesh91@gmail.com</a></p>*/}
-                            {/*</div>*/}
-
                         </div>
+
                         <div className="footer-right">
 
                             <p className="footer-company-about">
@@ -77,26 +69,9 @@ class App extends Component {
                             </p>
 
                             <div className="footer-icons">
-                                <a href="#" className="fa fa-facebook"></a>
-                                <a href="#" className="fa fa-twitter"></a>
-                                <a href="#" className="fa fa-google"></a>
-                                <a href="#" className="fa fa-linkedin"></a>
-                                {/*<a href="#" className="fa fa-youtube"></a>*/}
-                                {/*<a href="#" className="fa fa-instagram"></a>*/}
-                                {/*<a href="#" className="fa fa-pinterest"></a>*/}
-                                {/*<a href="#" className="fa fa-snapchat-ghost"></a>*/}
-                                <a href="#" className="fa fa-skype"></a>
-                                {/*<a href="#" className="fa fa-android"></a>*/}
-                                {/*<a href="#" className="fa fa-dribbble"></a>*/}
-                                {/*<a href="#" className="fa fa-vimeo"></a>*/}
-                                {/*<a href="#" className="fa fa-tumblr"></a>*/}
-                                {/*<a href="#" className="fa fa-vine"></a>*/}
-                                {/*<a href="#" className="fa fa-foursquare"></a>*/}
-                                {/*<a href="#" className="fa fa-stumbleupon"></a>*/}
-                                {/*<a href="#" className="fa fa-flickr"></a>*/}
-                                {/*<a href="#" className="fa fa-yahoo"></a>*/}
-                                {/*<a href="#" className="fa fa-reddit"></a>*/}
-                                {/*<a href="#" className="fa fa-rss"></a>*/}
+                                <a href="https://www.facebook.com/neteshchiku"className="face face-facebook"target="_blank"></a>
+                                <a href="https://www.linkedin.com/in/netesh3/" className="face face-linkedin"target="_blank"></a>
+                                <a href="https://twitter.com/ImNetesh3" className="face face-twitter"target="_blank"></a>
                             </div>
 
                         </div>
