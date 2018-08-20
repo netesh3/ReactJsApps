@@ -77,15 +77,15 @@ class App extends Component {
                             </p>
 
                             <div className="footer-icons">
-                                <a href="http://facebook.com/neteshchiku" className="fa fa-facebook"></a>
-                                <a href="http://twitter.com/ImNetesh3" className="fa fa-twitter"></a>
-                                <a href="https://plus.google.com/u/0/114811476737455989617" className="fa fa-google"></a>
-                                <a href="https://www.linkedin.com/in/netesh3/" className="fa fa-linkedin"></a>
+                                <a href="http://facebook.com/neteshchiku" className="fa fa-facebook"target="_blank"></a>
+                                <a href="http://twitter.com/ImNetesh3" className="fa fa-twitter"target="_blank"></a>
+                                <a href="https://plus.google.com/u/0/114811476737455989617" className="fa fa-google"target="_blank"></a>
+                                <a href="https://www.linkedin.com/in/netesh3/" className="fa fa-linkedin"target="_blank"></a>
                                 {/*<a href="#" className="fa fa-youtube"></a>*/}
                                 {/*<a href="#" className="fa fa-instagram"></a>*/}
                                 {/*<a href="#" className="fa fa-pinterest"></a>*/}
                                 {/*<a href="#" className="fa fa-snapchat-ghost"></a>*/}
-                                <a href="https://secure.skype.com/portal/overview" className="fa fa-skype"></a>
+                                <a href="https://secure.skype.com/portal/overview" className="fa fa-skype"target="_blank"></a>
                                 {/*<a href="#" className="fa fa-android"></a>*/}
                                 {/*<a href="#" className="fa fa-dribbble"></a>*/}
                                 {/*<a href="#" className="fa fa-vimeo"></a>*/}
